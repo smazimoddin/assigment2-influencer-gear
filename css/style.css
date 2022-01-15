@@ -313,12 +313,19 @@ nav ul li a:hover {
     display: grid;
     grid-template-columns: 1fr;
     grid-column-gap: 30px;
-    width: 100%;
   }
   .single-collection img {
     width: 100%;
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 768px) {
+  .popular-collections {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+  }
+  .single-collection img {
+    width: 100%;
+  }
 }
