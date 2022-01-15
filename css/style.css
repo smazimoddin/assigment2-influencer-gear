@@ -319,7 +319,7 @@ nav ul li a:hover {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .popular-collections {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
